@@ -1,0 +1,5 @@
+region      = "us-east-1"
+project     = "training"
+app         = "app"
+env         = "prod"
+bucket_name = "production-bucket"

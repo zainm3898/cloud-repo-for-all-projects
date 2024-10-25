@@ -1,0 +1,5 @@
+region      = "us-east-2"
+project     = "training"
+app         = "app"
+env         = "test"
+bucket_name = "testing-bucket"
