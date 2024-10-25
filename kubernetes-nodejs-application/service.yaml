@@ -1,0 +1,19 @@
+apiVersion: v1
+
+kind: Service
+
+metadata:
+  name: node-app-service
+
+spec:
+  selector:
+    app: node-app
+
+  ports:
+    - protocol: TCP
+
+      port: 8000 #customize
+
+      targetPort: 8000
+
+  type: LoadBalancer
